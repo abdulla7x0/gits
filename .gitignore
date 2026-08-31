@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.pytest_cache/
+venv/
+ENV/
+env/
+*.db
+*.sqlite3
+fundamental_intel.db
+
+# Node.js / Next.js
+node_modules/
+*/node_modules/
+frontend/node_modules/
+.next/
+*/.next/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+*.log
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
